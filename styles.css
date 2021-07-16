@@ -5,12 +5,22 @@
     height: auto;
     margin: 5%;
 }
+.push_get {
+    margin-bottom: 8% !important;
+    margin-top: 8%;
+}
 p{
     font-weight: 300;
 }
 .info{
     padding-right: 0px;
     padding-left: 0px;
+}
+.product {
+    color: #B9B7B7;
+    margin-left: 10%;
+    margin-top: -5%;
+    padding: 10px;
 }
 .getvertical {
     height: 500px;
@@ -178,7 +188,7 @@ a:hover {
     cursor: pointer;
     text-align: center;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 55px;
     margin: 0;
     margin-top: 3%;
     margin-left: -1%;
@@ -215,11 +225,6 @@ a:hover {
     margin-bottom:45px;
 }
 
-.game {
-    height: 85px;
-    width: auto;
-    margin-bottom:30px;
-}
 
 nav .navbar .navbar-expand-sm .navbar-light .spread{
     padding-top: 50px;
@@ -374,13 +379,18 @@ body {
     outline: none;
     margin-right: 0;
 }
-
+.expanded{
+    margin-bottom: 2%;
+}
 /*header styling*/
 h1 {
     font-weight: 700;
     font-size: 50px;
     z-index:2;
     text-align: center;
+}
+.get{
+    font-size: 40px;
 }
 h2 {
     font-size: 30px;
@@ -418,8 +428,8 @@ h6 {
     padding-bottom: 78px;
 }
 .steps {
-    padding-bottom: 5.5%;
-    padding-top: 5.5%;
+    padding-bottom: 13%;
+    padding-top: 10%;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -450,7 +460,7 @@ h6 {
     visibility: hidden;
     position: absolute;
     margin-right: 200%;
-    margin-top: -200%;
+    margin-top: -300%;
 }
 .discover{
     padding-top: 4%;
@@ -491,9 +501,8 @@ hr {
 .push{
     margin-bottom: 5%;
 }
-@media (max-width: 1175px){
 
-  
+@media (max-width: 1175px){
 
     .getstreamer {
         text-align: right;
@@ -515,30 +524,7 @@ hr {
 }
 
 @media (max-width: 996px) {
-    .getvertical {
-        width: 70%;
-        height: auto;
-    }
-
-    .gethorizontal {
-        width: 90%;
-        height: auto;
-    }
-    .shrunken {
-        visibility: visible !important;
-        white-space: normal;
-        margin-right: 0%;
-        margin-top: 0%;
-        position: relative;
-    }
-    .expanded {
-        white-space: nowrap;
-        overflow: hidden;
-        visibility: hidden;
-        position: absolute;
-        margin-right: 200%;
-        margin-top: -300%;
-    }
+    
     .homeimage {
         margin-top: 10%;
     }
@@ -584,8 +570,49 @@ hr {
     }
 }
 
-@media (max-width: 769px) {
-   
+@media (max-width: 766px) {
+    .col-md .getvertical {
+        width: 250px;
+        height:auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .product{
+        margin-left:0%;
+        margin-top: 0%;
+    }
+    .col-md{
+        text-align: center;
+    }
+    .col-md .gethorizontal {
+        width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .get {
+        font-size: 40px;
+        text-decoration: underline;
+    }
+
+    .shrunken {
+        visibility: visible !important;
+        white-space: normal;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        position: relative;
+    }
+
+    .expanded {
+        white-space: nowrap;
+        overflow: hidden;
+        visibility: hidden;
+        position: absolute;
+        margin-right: 200%;
+        margin-top: -300%;
+    }
     .lefty {
         text-align: center;
         margin-top: 5%;
@@ -697,4 +724,13 @@ hr {
         visibility:hidden;
     }
  
+}
+@media (max-width: 960px) {
+    .gethorizontal {
+        width: 350px;
+    }
+
+    .getvertical {
+        height: 350px;
+    }
 }
