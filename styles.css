@@ -21,6 +21,7 @@ p{
     margin-left: 10%;
     margin-top: -5%;
     padding: 10px;
+    text-align: left;
 }
 .getvertical {
     height: 500px;
@@ -580,6 +581,7 @@ hr {
     .product{
         margin-left:0%;
         margin-top: 0%;
+        text-align: center;
     }
     .col-md{
         text-align: center;
