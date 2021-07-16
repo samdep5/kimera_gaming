@@ -216,7 +216,7 @@
                 border-width: 1px !important;
                 font-family: "SF Pro Display",sans-serif;
                 font-size: 17px !important;
-                height: auto;
+                height: 100%;
                 line-height: 21px !important;
                 margin-bottom: 0;
                 margin-top: 0;
@@ -350,7 +350,6 @@
         }
 
 .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal {
-    width: 12%;
     height: 50%;
     float: left;
 }
@@ -398,7 +397,7 @@
     margin: 0 !important;
     padding: 10px !important;
     width: 100%;
-    height: auto
+    height: calc(1.5em + .75rem + 2px);
 }
 
     #mlb2-4400056.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
@@ -479,4 +478,19 @@
     padding: 10px !important;
     width: 100% !important;
     box-sizing: border-box !important
+}
+
+@media (max-width: 996px) {
+    .ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields {
+        float: none;
+        width: 100%;
+    }
+    #mlb2-4400056.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input, #mlb2-4400056.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+        border-radius: 10px;
+    }
+    .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal {
+        height: 50%;
+        float: none;
+        margin-top: 4%;
+    }
 }
