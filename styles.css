@@ -271,6 +271,14 @@ nav .navbar .navbar-expand-sm .navbar-light .spread{
 }
 .tint {
     padding-top:2%;
+    margin-right: -5%;
+    margin-left:-5%;
+    background-color: rgba(144, 144, 144, 0.06);
+}
+.tinted {
+    padding-top: 2%;
+    margin-right: 0%;
+    margin-left: 0%;
     background-color: rgba(144, 144, 144, 0.06);
 }
 
